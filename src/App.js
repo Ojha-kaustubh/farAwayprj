@@ -28,9 +28,7 @@ function Form() {
 
   function handleSubmit(e) {
     e.preventDefault(); // page is not refresh again
-
     if (!description) return;
-
     const newItem = { description, quantity, packed: false, id: Date.now() };
     console.log(newItem);
     setdescription("");
