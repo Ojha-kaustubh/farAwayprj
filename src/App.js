@@ -25,6 +25,7 @@ function Logo() {
 function Form() {
   const [description, setdescription] = useState("");
   const [quantity, setquantity] = useState(1);
+
   function handleSubmit(e) {
     e.preventDefault(); // page is not refresh again
 
@@ -32,6 +33,8 @@ function Form() {
 
     const newItem = { description, quantity, packed: false, id: Date.now() };
     console.log(newItem);
+    setdescription("");
+    setquantity(1);
   }
 
   return (
