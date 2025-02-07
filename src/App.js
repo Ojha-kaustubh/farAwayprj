@@ -68,7 +68,6 @@ function PackingList() {
     </ul>
   );
 }
-
 function Item({ item }) {
   return (
     <li>
@@ -80,7 +79,6 @@ function Item({ item }) {
     </li>
   );
 }
-
 function Stats() {
   return (
     <footer className="stats">
