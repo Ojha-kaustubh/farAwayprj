@@ -88,7 +88,6 @@ function Item({ item , onDeleteItem}) {
     </li>
   );
 }
-
 function Stats() {
   return (
     <footer className="stats">
