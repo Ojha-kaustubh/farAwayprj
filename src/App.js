@@ -105,7 +105,6 @@ function Item({ item, onDeleteItem , onToggleItem}) {
     </li>
   );
 }
-
 function Stats() {
   return (
     <footer className="stats">
