@@ -15,7 +15,6 @@ export default function PackingList({
   } else if (sortBy === "packed") {
     sortedItems.sort((a, b) => Number(a.packed) - Number(b.packed));
   }
-
   return (
     <div className="list">
       <ul className="list">
